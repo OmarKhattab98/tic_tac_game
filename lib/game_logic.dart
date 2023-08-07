@@ -152,6 +152,7 @@ class Game {
     } else if (Player.playerX.containsAll(2, 6) && emptyCells.contains(4)) {
       index = 4;
     }
+    // test3
     // start - end
     else if (Player.playerX.containsAll(1, 2) && emptyCells.contains(0)) {
       index = 0;
